@@ -18,7 +18,7 @@
 		23816A37A70272065790C746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		759F4F7886CAC1587E6B38C8 /* CleverTapSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleverTapSampleApp.swift; sourceTree = "<group>"; };
 		88BD7E4EC83E410E9DDFE03D /* CleverTapSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleverTapSample.entitlements; sourceTree = "<group>"; };
-		CA9A466C537AAE62CE72DF0A /* CleverTapSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleverTapSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9A466C537AAE62CE72DF0A /* CleverTapSample.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CleverTapSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F528288B75E13E10C25157DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +94,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					5CF77F25AF9AF01D1184835E = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,7 +143,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CVD76JJ88V;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = CleverTapSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -166,7 +167,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CVD76JJ88V;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = CleverTapSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

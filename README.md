@@ -10,6 +10,17 @@ Minimal SwiftUI app for a CleverTap Technical Onboarding assessment.
 - APNs device token passed to CleverTap
 - "View Product" button that identifies the user and records a `Product Viewed` event
 
+## Assessment Requirements Implemented
+
+- [x] CleverTap iOS SDK integration
+- [x] User identification using the required email format
+- [x] `Product Viewed` event with Product ID, Image and Name
+- [x] APNs device registration
+- [x] Push Notification campaign tested on a physical iPhone
+- [x] In-App campaign triggered by `App Launched`
+
+Campaign delivery videos are provided separately with the assessment submission.
+
 ## Files
 
 | File | Purpose |
@@ -33,11 +44,10 @@ Minimal SwiftUI app for a CleverTap Technical Onboarding assessment.
    These are found in the CleverTap dashboard under **Settings → Integration Details**.
    The same two keys are read by `CleverTap.autoIntegrate()`.
 
-2. **Set your test email**
+2. **Test email**
 
-   In `CleverTapSample/ContentView.swift`, replace
-   `clevertap+YOUR_EMAIL_ID@gmail.com` with your own
-   `clevertap+youremail@gmail.com` address.
+   The app identifies the user with `clevertap+duongnh.612@gmail.com`
+   (see `CleverTapSample/ContentView.swift`).
 
 3. **Open the project**
 

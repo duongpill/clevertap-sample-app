@@ -4,3 +4,13 @@ DerivedData/
 build/
 *.xcuserstate
 .idea/
+
+# Apple signing / push credentials
+*.p8
+*.p12
+*.mobileprovision
+
+# Local secrets
+.env
+.env.*
+Secrets.xcconfig
