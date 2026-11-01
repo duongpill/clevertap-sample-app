@@ -13,18 +13,29 @@ Minimal SwiftUI app for a CleverTap Technical Onboarding assessment.
 ## Assessment Requirements
 
 ### Technical
+
 - [x] CleverTap iOS SDK integration
 - [x] Product Viewed event with required properties
 - [x] User email profile update
 - [x] APNs registration and push notification support
 
 ### Product
+
 - [x] Push campaign for users who viewed Product ID = 1 today
 - [x] In-App campaign triggered by App Launched
 - [x] CSV upload of 10 users with `uploaded users = true`
 - [x] Segment created for uploaded users
 
+The CSV upload and uploaded-user segment were configured directly in the CleverTap dashboard and are therefore not represented in the source code.
+
 Push and In-App delivery videos are included separately with the submission.
+
+## Tested Environment
+
+- Physical device: iPhone 8 Plus
+- iOS 16.7.15
+- APNs environment: Development
+- Tested bundle identifier: `com.duongnguyen.clevertapsample`
 
 ## Files
 
