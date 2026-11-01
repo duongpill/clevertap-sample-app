@@ -15,7 +15,7 @@ Minimal SwiftUI app for a CleverTap Technical Onboarding assessment.
 ### Technical
 
 - [x] CleverTap iOS SDK integration
-- [x] Product Viewed event with required properties
+- [x] `Product Viewed` event with `Product ID = 1`, `Product Image`, and `Product Name = CleverTap`
 - [x] User email profile update
 - [x] APNs registration and push notification support
 
@@ -112,6 +112,8 @@ Push and In-App delivery videos are included separately with the submission.
      and `Product Name` properties.
 5. Send a test push from the CleverTap dashboard to confirm the device token
    was registered.
+6. Launch the app again and confirm the In-App campaign is triggered by `App Launched`.
+7. Confirm the uploaded-users segment contains 10 users with `uploaded users = true`.
 
 ## Notes
 
